@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "e34fe520-be8a-4c98-8ce3-671f904bb03f",
+		"name": "Node Tech. Api",
+		"description": "This is Rest API which is created in php.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Read Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/nodetec/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"nodetec",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Asus",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Best laptop",
+							"type": "text"
+						},
+						{
+							"key": "ram",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "processor",
+							"value": "dual core",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "laptop",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/nodetec/api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"nodetec",
+						"api.php"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
